@@ -7,7 +7,7 @@ const { readChatHistory, writeChatHistory } = require('./chat/chatHistoryUtils')
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: "http://localhost:3000", 
+        origin: "https://655fa231ced67223293847ed--elegant-biscuit-6cb116.netlify.app/login", 
         methods: ["GET", "POST"]
     }
 });
