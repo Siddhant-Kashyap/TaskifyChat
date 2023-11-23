@@ -7,7 +7,7 @@ const { readChatHistory, writeChatHistory } = require('./chat/chatHistoryUtils')
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://655fa231ced67223293847ed--elegant-biscuit-6cb116.netlify.app/login", 
+        origin: "https://taskify-tau-nine.vercel.app", 
         methods: ["GET", "POST"]
     }
 });
